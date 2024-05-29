@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Школа будущего</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper container">
+            <div class="header-main">
+                <img class="header-main-logo" src="./images/logo.png" width="236px" alt="">
+                <div class="header-main-links">
+                    <a href="tel:+78003003791" class="header-main-links-tel">8 (800) 300-37-91</a>
+                    <a href="/" class="header-main-links-signup signup-button">Записаться на урок</a>
+                    <div class="header-main-links-social">
+                        <a href="/">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="19.9985" cy="20" r="20" fill="#2F89CE" />
+                                <path
+                                    d="M9.34924 20.3741L13.9473 22.0886L15.7398 27.8557C15.8177 28.2454 16.2853 28.3233 16.5971 28.0895L19.1689 25.9853C19.4027 25.7515 19.7923 25.7515 20.1041 25.9853L24.7022 29.3364C25.0139 29.5702 25.4815 29.4144 25.5594 29.0247L28.9885 12.6587C29.0664 12.269 28.6768 11.8793 28.2871 12.0352L9.34924 19.3609C8.88163 19.5168 8.88163 20.2182 9.34924 20.3741ZM15.506 21.2313L24.5463 15.6981C24.7021 15.6201 24.858 15.8539 24.7022 15.9319L17.2985 22.868C17.0647 23.1018 16.8309 23.4135 16.8309 23.8032L16.5971 25.6736C16.5971 25.9074 16.2074 25.9853 16.1295 25.6736L15.1943 22.2445C14.9605 21.8548 15.1163 21.3872 15.506 21.2313Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="/">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="watsapp">
+                                    <circle id="Ellipse" cx="19.9985" cy="20" r="20" fill="#48C95F" />
+                                    <path id="Vector"
+                                        d="M27.9254 12.0625C25.9498 10.0937 23.3156 9 20.5351 9C14.7546 9 10.0717 13.6667 10.0717 19.4271C10.0717 21.25 10.5839 23.0729 11.4619 24.6042L9.99854 30L15.5595 28.5417C17.0961 29.3438 18.779 29.7812 20.5351 29.7812C26.3156 29.7812 30.9985 25.1146 30.9985 19.3542C30.9254 16.6563 29.901 14.0312 27.9254 12.0625ZM25.5839 23.1458C25.3644 23.7292 24.34 24.3125 23.8278 24.3854C23.3888 24.4583 22.8034 24.4583 22.218 24.3125C21.8522 24.1667 21.34 24.0208 20.7546 23.7292C18.1205 22.6354 16.4376 20.0104 16.2912 19.7917C16.1449 19.6458 15.1937 18.4062 15.1937 17.0937C15.1937 15.7812 15.8522 15.1979 16.0717 14.9062C16.2912 14.6146 16.5839 14.6146 16.8034 14.6146C16.9498 14.6146 17.1693 14.6146 17.3156 14.6146C17.4619 14.6146 17.6815 14.5417 17.901 15.0521C18.1205 15.5625 18.6327 16.875 18.7058 16.9479C18.779 17.0938 18.779 17.2396 18.7058 17.3854C18.6327 17.5312 18.5595 17.6771 18.4132 17.8229C18.2668 17.9687 18.1205 18.1875 18.0473 18.2604C17.901 18.4062 17.7546 18.5521 17.901 18.7708C18.0473 19.0625 18.5595 19.8646 19.3644 20.5937C20.3888 21.4687 21.1937 21.7604 21.4863 21.9063C21.779 22.0521 21.9254 21.9792 22.0717 21.8333C22.218 21.6875 22.7302 21.1042 22.8766 20.8125C23.0229 20.5208 23.2424 20.5938 23.4619 20.6667C23.6815 20.7396 24.9985 21.3958 25.218 21.5417C25.5107 21.6875 25.6571 21.7604 25.7302 21.8333C25.8034 22.0521 25.8034 22.5625 25.5839 23.1458Z"
+                                        fill="white" />
+                                </g>
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="header-burger">
+                    <div class="header-burger-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="header-burger-menu">
+                        <div class="header-burger-menu-logo">
+                            <img src="/images/header/logo-burger.png" alt="">
+                        </div>
+                        <div class="header-burger-menu-wrapper">
+                            <ul class="header-burger-menu-list">
+                                <li class="header-menu-item">
+                                    <a href="#for-whom">Для кого</a>
+                                </li>
+                                <li class="header-burger-menu-item">
+                                    <a href="#learning-process">Как проходят уроки</a>
+                                </li>
+                                <li class="header-burger-menu-item">
+                                    <a href="#advantages">Преимущества</a>
+                                </li>
+                                <li class="header-burger-menu-item">
+                                    <a href="/">Цены</a>
+                                </li>
+                                <li class="header-burger-menu-item">
+                                    <a href="/">Контакты</a>
+                                </li>
+                            </ul>
+                            <div class="header-burger-menu-personal-account">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.775 8.78802C12.5129 8.211 13.0523 7.41808 13.3181 6.51984C13.5839 5.6216 13.5627 4.66282 13.2575 3.77719C12.9524 2.89156 12.3784 2.12324 11.6158 1.57936C10.8531 1.03548 9.93973 0.743164 9.003 0.743164C8.06627 0.743164 7.15289 1.03548 6.39023 1.57936C5.62757 2.12324 5.05364 2.89156 4.74848 3.77719C4.44332 4.66282 4.42214 5.6216 4.6879 6.51984C4.95366 7.41808 5.4931 8.211 6.231 8.78802C4.83688 9.34273 3.641 10.3025 2.7977 11.5436C1.9544 12.7846 1.50239 14.2498 1.5 15.7503V16.5003C1.5 16.6992 1.57902 16.8899 1.71967 17.0306C1.86032 17.1713 2.05109 17.2503 2.25 17.2503H15.75C15.9489 17.2503 16.1397 17.1713 16.2803 17.0306C16.421 16.8899 16.5 16.6992 16.5 16.5003V15.7503C16.4981 14.2505 16.047 12.7858 15.2048 11.5448C14.3626 10.3039 13.168 9.34368 11.775 8.78802ZM6 5.25027C6 4.65693 6.17595 4.07691 6.50559 3.58356C6.83524 3.09021 7.30377 2.7057 7.85195 2.47863C8.40013 2.25157 9.00333 2.19216 9.58527 2.30792C10.1672 2.42367 10.7018 2.70939 11.1213 3.12895C11.5409 3.54851 11.8266 4.08306 11.9424 4.665C12.0581 5.24694 11.9987 5.85014 11.7716 6.39832C11.5446 6.9465 11.1601 7.41504 10.6667 7.74468C10.1734 8.07432 9.59334 8.25027 9 8.25027C8.20435 8.25027 7.44129 7.9342 6.87868 7.37159C6.31607 6.80898 6 6.04592 6 5.25027ZM3 15.7503C3 14.159 3.63214 12.6328 4.75736 11.5076C5.88258 10.3824 7.4087 9.75027 9 9.75027C10.5913 9.75027 12.1174 10.3824 13.2426 11.5076C14.3679 12.6328 15 14.159 15 15.7503H3Z"
+                                        fill="url(#paint0_linear_318_61933)" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_318_61933" x1="16.5" y1="17.2503"
+                                            x2="0.803894" y2="16.5595" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#864FF1" />
+                                            <stop offset="1" stop-color="#49B3F7" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <a class="header-burger-menu-personal-account-link" href="/">Личный кабинет</a>
+                            </div>
+                            <div class="header-burger-menu-classes">
+                                <a href="tel:+78003003791" class="header-burger-menu-tel">8 (800) 300-37-91</a>
+                                <a href="" class="header-classes-button">1-4 классы</a>
+                                <a href="" class="header-classes-button">5-8 классы</a>
+                                <a href="" class="header-classes-button">9-11 классы</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-menu">
+                <ul class="header-menu-list">
+                    <li class="header-menu-item">
+                        <a href="#for-whom">Для кого</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#learning-process">Как проходят уроки</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#advantages">Преимущества</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#cost">Цены</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+                <div class="header-menu-personal-account">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.775 8.78802C12.5129 8.211 13.0523 7.41808 13.3181 6.51984C13.5839 5.6216 13.5627 4.66282 13.2575 3.77719C12.9524 2.89156 12.3784 2.12324 11.6158 1.57936C10.8531 1.03548 9.93973 0.743164 9.003 0.743164C8.06627 0.743164 7.15289 1.03548 6.39023 1.57936C5.62757 2.12324 5.05364 2.89156 4.74848 3.77719C4.44332 4.66282 4.42214 5.6216 4.6879 6.51984C4.95366 7.41808 5.4931 8.211 6.231 8.78802C4.83688 9.34273 3.641 10.3025 2.7977 11.5436C1.9544 12.7846 1.50239 14.2498 1.5 15.7503V16.5003C1.5 16.6992 1.57902 16.8899 1.71967 17.0306C1.86032 17.1713 2.05109 17.2503 2.25 17.2503H15.75C15.9489 17.2503 16.1397 17.1713 16.2803 17.0306C16.421 16.8899 16.5 16.6992 16.5 16.5003V15.7503C16.4981 14.2505 16.047 12.7858 15.2048 11.5448C14.3626 10.3039 13.168 9.34368 11.775 8.78802ZM6 5.25027C6 4.65693 6.17595 4.07691 6.50559 3.58356C6.83524 3.09021 7.30377 2.7057 7.85195 2.47863C8.40013 2.25157 9.00333 2.19216 9.58527 2.30792C10.1672 2.42367 10.7018 2.70939 11.1213 3.12895C11.5409 3.54851 11.8266 4.08306 11.9424 4.665C12.0581 5.24694 11.9987 5.85014 11.7716 6.39832C11.5446 6.9465 11.1601 7.41504 10.6667 7.74468C10.1734 8.07432 9.59334 8.25027 9 8.25027C8.20435 8.25027 7.44129 7.9342 6.87868 7.37159C6.31607 6.80898 6 6.04592 6 5.25027ZM3 15.7503C3 14.159 3.63214 12.6328 4.75736 11.5076C5.88258 10.3824 7.4087 9.75027 9 9.75027C10.5913 9.75027 12.1174 10.3824 13.2426 11.5076C14.3679 12.6328 15 14.159 15 15.7503H3Z"
+                            fill="url(#paint0_linear_318_61933)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_318_61933" x1="16.5" y1="17.2503" x2="0.803894"
+                                y2="16.5595" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#864FF1" />
+                                <stop offset="1" stop-color="#49B3F7" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <a class="header-menu-personal-account-link" href="/">Личный кабинет</a>
+                </div>
+            </div>
+            <div class="header-classes">
+                <a href="" class="header-classes-button">1-4 классы</a>
+                <a href="" class="header-classes-button">5-8 классы</a>
+                <a href="" class="header-classes-button">9-11 классы</a>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <section class="banner">
+            <div class="banner-background"></div>
+            <div class="banner-wrapper container">
+                <div class="banner-content">
+                    <h2 class="banner-content-title">
+                        Настоящая школа<br><span>у вас дома!</span>
+                    </h2>
+                    <div class="banner-content-description">
+                        <p>
+                            Мы даем детям реальные знания, потому наши классы не превышают 10 человек. А интерактивность
+                            и вовлеченность делает уроки интересными для детей.<br> <br> <span>Семейное образование с
+                                нами - это эффективно!</span>
+                        </p>
+                    </div>
+                    <div class="banner-content-signup signup">
+                        <a href="#signup" class="signup-button">Записаться на урок</a>
+                        <div class="signup-social">
+                            <p>
+                                или написать:
+                            </p>
+                            <a href="/">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="19.9985" cy="20" r="20" fill="#2F89CE" />
+                                    <path
+                                        d="M9.34924 20.3741L13.9473 22.0886L15.7398 27.8557C15.8177 28.2454 16.2853 28.3233 16.5971 28.0895L19.1689 25.9853C19.4027 25.7515 19.7923 25.7515 20.1041 25.9853L24.7022 29.3364C25.0139 29.5702 25.4815 29.4144 25.5594 29.0247L28.9885 12.6587C29.0664 12.269 28.6768 11.8793 28.2871 12.0352L9.34924 19.3609C8.88163 19.5168 8.88163 20.2182 9.34924 20.3741ZM15.506 21.2313L24.5463 15.6981C24.7021 15.6201 24.858 15.8539 24.7022 15.9319L17.2985 22.868C17.0647 23.1018 16.8309 23.4135 16.8309 23.8032L16.5971 25.6736C16.5971 25.9074 16.2074 25.9853 16.1295 25.6736L15.1943 22.2445C14.9605 21.8548 15.1163 21.3872 15.506 21.2313Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="/">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="watsapp">
+                                        <circle id="Ellipse" cx="19.9985" cy="20" r="20" fill="#48C95F" />
+                                        <path id="Vector"
+                                            d="M27.9254 12.0625C25.9498 10.0937 23.3156 9 20.5351 9C14.7546 9 10.0717 13.6667 10.0717 19.4271C10.0717 21.25 10.5839 23.0729 11.4619 24.6042L9.99854 30L15.5595 28.5417C17.0961 29.3438 18.779 29.7812 20.5351 29.7812C26.3156 29.7812 30.9985 25.1146 30.9985 19.3542C30.9254 16.6563 29.901 14.0312 27.9254 12.0625ZM25.5839 23.1458C25.3644 23.7292 24.34 24.3125 23.8278 24.3854C23.3888 24.4583 22.8034 24.4583 22.218 24.3125C21.8522 24.1667 21.34 24.0208 20.7546 23.7292C18.1205 22.6354 16.4376 20.0104 16.2912 19.7917C16.1449 19.6458 15.1937 18.4062 15.1937 17.0937C15.1937 15.7812 15.8522 15.1979 16.0717 14.9062C16.2912 14.6146 16.5839 14.6146 16.8034 14.6146C16.9498 14.6146 17.1693 14.6146 17.3156 14.6146C17.4619 14.6146 17.6815 14.5417 17.901 15.0521C18.1205 15.5625 18.6327 16.875 18.7058 16.9479C18.779 17.0938 18.779 17.2396 18.7058 17.3854C18.6327 17.5312 18.5595 17.6771 18.4132 17.8229C18.2668 17.9687 18.1205 18.1875 18.0473 18.2604C17.901 18.4062 17.7546 18.5521 17.901 18.7708C18.0473 19.0625 18.5595 19.8646 19.3644 20.5937C20.3888 21.4687 21.1937 21.7604 21.4863 21.9063C21.779 22.0521 21.9254 21.9792 22.0717 21.8333C22.218 21.6875 22.7302 21.1042 22.8766 20.8125C23.0229 20.5208 23.2424 20.5938 23.4619 20.6667C23.6815 20.7396 24.9985 21.3958 25.218 21.5417C25.5107 21.6875 25.6571 21.7604 25.7302 21.8333C25.8034 22.0521 25.8034 22.5625 25.5839 23.1458Z"
+                                            fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/banner/image.png" alt="" class="banner-image">
+            </div>
+        </section>
+        <section class="for-whom container">
+            <div class="for-whom-wrapper">
+                <h2 class="for-whom-title" id="for-whom">Кому подходит онлайн образование?</h2>
+                <ul class="for-whom-list">
+                    <li class="for-whom-item">
+                        <img src="./images/for-whom/1.png" alt="" class="for-whom-image">
+                        <div class="for-whom-item-description">
+                            <p>
+                                Для тех, кто хочет<br> получать знания
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="for-whom-item">
+                        <img src="./images/for-whom/2.png" alt="" class="for-whom-image">
+                        <div class="for-whom-item-description">
+                            <p>
+                                Для<br> путешественников
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="for-whom-item">
+                        <img src="./images/for-whom/3.png" alt="" class="for-whom-image">
+                        <div class="for-whom-item-description">
+                            <p>
+                                Для семейного<br> обучения
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="for-whom-item">
+                        <img src="./images/for-whom/4.png" alt="" class="for-whom-image">
+                        <div class="for-whom-item-description">
+                            <p>
+                                Для<br>спортсменов
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="for-whom-item">
+                        <img src="./images/for-whom/5.png" alt="" class="for-whom-image">
+                        <div class="for-whom-item-description">
+                            <p>
+                                Для проживающих<br> за рубежом
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="advertisement">
+                <div class="advertisement-wrapper">
+                    <img src="./images/advertisement/girl.png" alt="girl read book" class="advertisement-image">
+                    <div class="advertisement-text">
+                        <h3 class="advertisement-title">Первый месяц обучения от 5 250 руб</h3>
+                        <div class="advertisement-description">
+                            <p>
+                                Не знаете подойдет ли вашему ребенку обучение онлайн?<br> Попробуйте первый месяц со
+                                скидкой 50%!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="advertisement-signup signup">
+                        <a href="#signup" class="advertisement-signup-button signup-button">Записаться на урок</a>
+                        <div class="signup-social">
+                            <p>
+                                или написать:
+                            </p>
+                            <a href="/">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="19.9985" cy="20" r="20" fill="#2F89CE" />
+                                    <path
+                                        d="M9.34924 20.3741L13.9473 22.0886L15.7398 27.8557C15.8177 28.2454 16.2853 28.3233 16.5971 28.0895L19.1689 25.9853C19.4027 25.7515 19.7923 25.7515 20.1041 25.9853L24.7022 29.3364C25.0139 29.5702 25.4815 29.4144 25.5594 29.0247L28.9885 12.6587C29.0664 12.269 28.6768 11.8793 28.2871 12.0352L9.34924 19.3609C8.88163 19.5168 8.88163 20.2182 9.34924 20.3741ZM15.506 21.2313L24.5463 15.6981C24.7021 15.6201 24.858 15.8539 24.7022 15.9319L17.2985 22.868C17.0647 23.1018 16.8309 23.4135 16.8309 23.8032L16.5971 25.6736C16.5971 25.9074 16.2074 25.9853 16.1295 25.6736L15.1943 22.2445C14.9605 21.8548 15.1163 21.3872 15.506 21.2313Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="/">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="watsapp">
+                                        <circle id="Ellipse" cx="19.9985" cy="20" r="20" fill="#48C95F" />
+                                        <path id="Vector"
+                                            d="M27.9254 12.0625C25.9498 10.0937 23.3156 9 20.5351 9C14.7546 9 10.0717 13.6667 10.0717 19.4271C10.0717 21.25 10.5839 23.0729 11.4619 24.6042L9.99854 30L15.5595 28.5417C17.0961 29.3438 18.779 29.7812 20.5351 29.7812C26.3156 29.7812 30.9985 25.1146 30.9985 19.3542C30.9254 16.6563 29.901 14.0312 27.9254 12.0625ZM25.5839 23.1458C25.3644 23.7292 24.34 24.3125 23.8278 24.3854C23.3888 24.4583 22.8034 24.4583 22.218 24.3125C21.8522 24.1667 21.34 24.0208 20.7546 23.7292C18.1205 22.6354 16.4376 20.0104 16.2912 19.7917C16.1449 19.6458 15.1937 18.4062 15.1937 17.0937C15.1937 15.7812 15.8522 15.1979 16.0717 14.9062C16.2912 14.6146 16.5839 14.6146 16.8034 14.6146C16.9498 14.6146 17.1693 14.6146 17.3156 14.6146C17.4619 14.6146 17.6815 14.5417 17.901 15.0521C18.1205 15.5625 18.6327 16.875 18.7058 16.9479C18.779 17.0938 18.779 17.2396 18.7058 17.3854C18.6327 17.5312 18.5595 17.6771 18.4132 17.8229C18.2668 17.9687 18.1205 18.1875 18.0473 18.2604C17.901 18.4062 17.7546 18.5521 17.901 18.7708C18.0473 19.0625 18.5595 19.8646 19.3644 20.5937C20.3888 21.4687 21.1937 21.7604 21.4863 21.9063C21.779 22.0521 21.9254 21.9792 22.0717 21.8333C22.218 21.6875 22.7302 21.1042 22.8766 20.8125C23.0229 20.5208 23.2424 20.5938 23.4619 20.6667C23.6815 20.7396 24.9985 21.3958 25.218 21.5417C25.5107 21.6875 25.6571 21.7604 25.7302 21.8333C25.8034 22.0521 25.8034 22.5625 25.5839 23.1458Z"
+                                            fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="learning-process container">
+            <div class="learning-process-wrapper">
+                <h2 class="learning-process-title" id="learning-process">Как проходят уроки в нашей онлайн школе?</h2>
+                <ul class="learning-process-list">
+                    <li class="learning-process-item">
+                        <img src="./images/learning-process/1.png" alt="" class="learning-process-image">
+                        <div class="learning-process-text">
+                            <h3 class="learning-process-text-title">Живые уроки с учителем</h3>
+                            <div class="learning-process-text-description">
+                                <p>
+                                    Увлекательные уроки с учителем, на которых каждому ребенку будет уделено внимание
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="learning-process-item">
+                        <img src="./images/learning-process/2.png" alt="" class="learning-process-image">
+                        <div class="learning-process-text">
+                            <h3 class="learning-process-text-title">Дополнительные материалы</h3>
+                            <div class="learning-process-text-description">
+                                <p>
+                                    Материалы по каждой теме без лишней воды помогут закрепить знания
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="learning-process-item">
+                        <img src="./images/learning-process/3.png" alt="" class="learning-process-image">
+                        <div class="learning-process-text">
+                            <h3 class="learning-process-text-title">Домашнее задание</h3>
+                            <div class="learning-process-text-description">
+                                <p>
+                                    Для закрепления всего ранее полученного материала дети получают домашнее задание
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="learning-process-item">
+                        <img src="./images/learning-process/4.png" alt="" class="learning-process-image">
+                        <div class="learning-process-text">
+                            <h3 class="learning-process-text-title">Проверка и оценка</h3>
+                            <div class="learning-process-text-description">
+                                <p>
+                                    Все домашние задания проверяются учителем и выставляется оценка в дневник
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="advantages-wrapper container">
+                <h2 class="advantages-title" id="advantages">Дети любят наши уроки потому что:</h2>
+                <div class="advantages-content">
+                    <div class="advantage-content-wrapper">
+                        <ul class="advantages-list">
+                            <li class="advantages-item">
+                                <img src="./images/advantages/1.png" alt="" class="advantages-item-image">
+                                <div class="advantages-item-text">
+                                    <h3 class="advantages-item-title">Продвинутая геймификация</h3>
+                                    <div class="advantages-item-description">
+                                        <p>
+                                            Мы используем мини-игры чтобы увлечь ребенка в процесс решения задач и
+                                            помочь усвоить материал в интересной форме
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <img class="advantages-list-image" src="./images/advantages/image.png" alt="">
+                            <li class="advantages-item">
+                                <img src="./images/advantages/2.png" alt="" class="advantages-item-image">
+                                <div class="advantages-item-text">
+                                    <h3 class="advantages-item-title">Не зубрят и не переписывают учебники</h3>
+                                    <div class="advantages-item-description">
+                                        <p>
+                                            Дети вовлечены в урок по средствам взаимодействия между собой и педагогом.
+                                            Играют в тематические квизы. Смотрят видео и разбирают материал.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="advantages-item">
+                                <img src="./images/advantages/3.png" alt="" class="advantages-item-image">
+                                <div class="advantages-item-text">
+                                    <h3 class="advantages-item-title">Никакого стресса</h3>
+                                    <div class="advantages-item-description">
+                                        <p>
+                                            В учебных классах поддерживается атмосфера дружбы и уважения. Никакого
+                                            давления. Дети чувствуют себя комфортно
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="advantages-signup signup">
+                            <a href="#signup" class="signup-button">Записаться на урок</a>
+                            <div class="signup-social">
+                                <p>
+                                    или написать:
+                                </p>
+                                <a href="/">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="19.9985" cy="20" r="20" fill="#2F89CE" />
+                                        <path
+                                            d="M9.34924 20.3741L13.9473 22.0886L15.7398 27.8557C15.8177 28.2454 16.2853 28.3233 16.5971 28.0895L19.1689 25.9853C19.4027 25.7515 19.7923 25.7515 20.1041 25.9853L24.7022 29.3364C25.0139 29.5702 25.4815 29.4144 25.5594 29.0247L28.9885 12.6587C29.0664 12.269 28.6768 11.8793 28.2871 12.0352L9.34924 19.3609C8.88163 19.5168 8.88163 20.2182 9.34924 20.3741ZM15.506 21.2313L24.5463 15.6981C24.7021 15.6201 24.858 15.8539 24.7022 15.9319L17.2985 22.868C17.0647 23.1018 16.8309 23.4135 16.8309 23.8032L16.5971 25.6736C16.5971 25.9074 16.2074 25.9853 16.1295 25.6736L15.1943 22.2445C14.9605 21.8548 15.1163 21.3872 15.506 21.2313Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="/">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="watsapp">
+                                            <circle id="Ellipse" cx="19.9985" cy="20" r="20" fill="#48C95F" />
+                                            <path id="Vector"
+                                                d="M27.9254 12.0625C25.9498 10.0937 23.3156 9 20.5351 9C14.7546 9 10.0717 13.6667 10.0717 19.4271C10.0717 21.25 10.5839 23.0729 11.4619 24.6042L9.99854 30L15.5595 28.5417C17.0961 29.3438 18.779 29.7812 20.5351 29.7812C26.3156 29.7812 30.9985 25.1146 30.9985 19.3542C30.9254 16.6563 29.901 14.0312 27.9254 12.0625ZM25.5839 23.1458C25.3644 23.7292 24.34 24.3125 23.8278 24.3854C23.3888 24.4583 22.8034 24.4583 22.218 24.3125C21.8522 24.1667 21.34 24.0208 20.7546 23.7292C18.1205 22.6354 16.4376 20.0104 16.2912 19.7917C16.1449 19.6458 15.1937 18.4062 15.1937 17.0937C15.1937 15.7812 15.8522 15.1979 16.0717 14.9062C16.2912 14.6146 16.5839 14.6146 16.8034 14.6146C16.9498 14.6146 17.1693 14.6146 17.3156 14.6146C17.4619 14.6146 17.6815 14.5417 17.901 15.0521C18.1205 15.5625 18.6327 16.875 18.7058 16.9479C18.779 17.0938 18.779 17.2396 18.7058 17.3854C18.6327 17.5312 18.5595 17.6771 18.4132 17.8229C18.2668 17.9687 18.1205 18.1875 18.0473 18.2604C17.901 18.4062 17.7546 18.5521 17.901 18.7708C18.0473 19.0625 18.5595 19.8646 19.3644 20.5937C20.3888 21.4687 21.1937 21.7604 21.4863 21.9063C21.779 22.0521 21.9254 21.9792 22.0717 21.8333C22.218 21.6875 22.7302 21.1042 22.8766 20.8125C23.0229 20.5208 23.2424 20.5938 23.4619 20.6667C23.6815 20.7396 24.9985 21.3958 25.218 21.5417C25.5107 21.6875 25.6571 21.7604 25.7302 21.8333C25.8034 22.0521 25.8034 22.5625 25.5839 23.1458Z"
+                                                fill="white" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="advantages-image" src="./images/advantages/image.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="comparison">
+            <div class="comparison-wrapper container">
+                <h2 class="comparison-title">Глянем сравнение:</h2>
+                <div class="comparison-content">
+                    <img src="./images/comparison/1.png" alt="" class="comparison-image">
+                    <div class="comparison-usual">
+                        <h3 class="comparison-usual-title">Обычная школа</h3>
+                        <ul class="comparison-usual-list">
+                            <li class="comparison-usual-item">Число детей в классе от<br> <b>25</b></li>
+                            <li class="comparison-usual-item">Количество уроков<br> <b>5-6 в день</b></li>
+                            <li class="comparison-usual-item">Дополнительные занятия<br> <b>обязательно</b></li>
+                            <li class="comparison-usual-item">Индивидуальный подход<br> <b>нет</b></li>
+                            <li class="comparison-usual-item">Гибкий график занятий<br> <b>нет</b></li>
+                            <li class="comparison-usual-item">Собрать ребенка в школу<br> <b>от 30 тыс. рублей</b></li>
+                        </ul>
+                    </div>
+                    <div class="comparison-online">
+                        <h3 class="comparison-online-title">Онлайн школа</h3>
+                        <ul class="comparison-online-list">
+                            <li class="comparison-online-item">Число детей в классе от<br> <b>12</b></li>
+                            <li class="comparison-online-item">Количество уроков<br> <b>2-3 в день</b></li>
+                            <li class="comparison-online-item">Дополнительные занятия<br> <b>по желанию</b></li>
+                            <li class="comparison-online-item">Индивидуальный подход<br> <b>да</b></li>
+                            <li class="comparison-online-item">Гибкий график занятий<br> <b>да</b></li>
+                            <li class="comparison-online-item">Собрать ребенка в школу<br> <b> 0 рублей</b></li>
+                        </ul>
+                    </div>
+                    <img src="./images/comparison/2.png" alt="" class="comparison-image">
+                </div>
+            </div>
+        </section>
+        <section class="this-is">
+            <div class="this-is-wrapper container">
+                <h2 class="this-is-title">Онлайн школа среднего образования это -</h2>
+                <ul class="this-is-list">
+                    <li class="this-is-item">
+                        <img src="./images/this-is/1.png" alt="" class="this-is-item-image">
+                        <h3 class="this-is-item-title">Удобный график занятий</h3>
+                        <div class="this-is-item-description">
+                            <p>
+                                Вы можете выбрать удобное время начала занятий (9:00, 11:00 или 13:00)
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="this-is-item">
+                        <img src="./images/this-is/2.png" alt="" class="this-is-item-image">
+                        <h3 class="this-is-item-title">Записи уроков доступны всегда</h3>
+                        <div class="this-is-item-description">
+                            <p>
+                                Пропустил урок - не страшно! Записи уроков можно посмотреть в любое время
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="this-is-item">
+                        <img src="./images/this-is/3.png" alt="" class="this-is-item-image">
+                        <h3 class="this-is-item-title">Сбалансированная нагрузка</h3>
+                        <div class="this-is-item-description">
+                            <p>
+                                Никаких лишних и не нужных занятий. Только важное и необходимое
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="this-is-item">
+                        <img src="./images/this-is/4.png" alt="" class="this-is-item-image">
+                        <h3 class="this-is-item-title">Не нужно покупать школьную форму и канцелярию</h3>
+                        <div class="this-is-item-description">
+                            <p>
+                                Тетрадка, ручка, линейка и карандаш - это все, что нужно для учебы в онлайн школе!
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="this-is-item">
+                        <img src="./images/this-is/5.png" alt="" class="this-is-item-image">
+                        <h3 class="this-is-item-title">Высококлассные педагоги</h3>
+                        <div class="this-is-item-description">
+                            <p>
+                                Опытные учителя прошедшие строгий отбор и использующие современные методы обучения
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="this-is-item">
+                        <img src="./images/this-is/6.png" alt="" class="this-is-item-image">
+                        <h3 class="this-is-item-title">Никакого стресса</h3>
+                        <div class="this-is-item-description">
+                            <p>
+                                В учебных классах поддерживается атмосфера дружбы и уважения. Никакого давления. Дети
+                                чувствуют себя комфортно
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="advertisement">
+                    <div class="advertisement-wrapper">
+                        <img src="./images/advertisement/boy.png" alt="girl read book" class="advertisement-image">
+                        <div class="advertisement-text">
+                            <h3 class="advertisement-title">Первый месяц обучения от 5 250 руб</h3>
+                            <div class="advertisement-description">
+                                <p>
+                                    Не знаете подойдет ли вашему ребенку обучение онлайн?<br> Попробуйте первый месяц со
+                                    скидкой 50%!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="advertisement-signup signup">
+                            <a href="#signup" class="advertisement-signup-button signup-button">Записаться на урок</a>
+                            <div class="signup-social">
+                                <p>
+                                    или написать:
+                                </p>
+                                <a href="/">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="19.9985" cy="20" r="20" fill="#2F89CE" />
+                                        <path
+                                            d="M9.34924 20.3741L13.9473 22.0886L15.7398 27.8557C15.8177 28.2454 16.2853 28.3233 16.5971 28.0895L19.1689 25.9853C19.4027 25.7515 19.7923 25.7515 20.1041 25.9853L24.7022 29.3364C25.0139 29.5702 25.4815 29.4144 25.5594 29.0247L28.9885 12.6587C29.0664 12.269 28.6768 11.8793 28.2871 12.0352L9.34924 19.3609C8.88163 19.5168 8.88163 20.2182 9.34924 20.3741ZM15.506 21.2313L24.5463 15.6981C24.7021 15.6201 24.858 15.8539 24.7022 15.9319L17.2985 22.868C17.0647 23.1018 16.8309 23.4135 16.8309 23.8032L16.5971 25.6736C16.5971 25.9074 16.2074 25.9853 16.1295 25.6736L15.1943 22.2445C14.9605 21.8548 15.1163 21.3872 15.506 21.2313Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="/">
+                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="watsapp">
+                                            <circle id="Ellipse" cx="19.9985" cy="20" r="20" fill="#48C95F" />
+                                            <path id="Vector"
+                                                d="M27.9254 12.0625C25.9498 10.0937 23.3156 9 20.5351 9C14.7546 9 10.0717 13.6667 10.0717 19.4271C10.0717 21.25 10.5839 23.0729 11.4619 24.6042L9.99854 30L15.5595 28.5417C17.0961 29.3438 18.779 29.7812 20.5351 29.7812C26.3156 29.7812 30.9985 25.1146 30.9985 19.3542C30.9254 16.6563 29.901 14.0312 27.9254 12.0625ZM25.5839 23.1458C25.3644 23.7292 24.34 24.3125 23.8278 24.3854C23.3888 24.4583 22.8034 24.4583 22.218 24.3125C21.8522 24.1667 21.34 24.0208 20.7546 23.7292C18.1205 22.6354 16.4376 20.0104 16.2912 19.7917C16.1449 19.6458 15.1937 18.4062 15.1937 17.0937C15.1937 15.7812 15.8522 15.1979 16.0717 14.9062C16.2912 14.6146 16.5839 14.6146 16.8034 14.6146C16.9498 14.6146 17.1693 14.6146 17.3156 14.6146C17.4619 14.6146 17.6815 14.5417 17.901 15.0521C18.1205 15.5625 18.6327 16.875 18.7058 16.9479C18.779 17.0938 18.779 17.2396 18.7058 17.3854C18.6327 17.5312 18.5595 17.6771 18.4132 17.8229C18.2668 17.9687 18.1205 18.1875 18.0473 18.2604C17.901 18.4062 17.7546 18.5521 17.901 18.7708C18.0473 19.0625 18.5595 19.8646 19.3644 20.5937C20.3888 21.4687 21.1937 21.7604 21.4863 21.9063C21.779 22.0521 21.9254 21.9792 22.0717 21.8333C22.218 21.6875 22.7302 21.1042 22.8766 20.8125C23.0229 20.5208 23.2424 20.5938 23.4619 20.6667C23.6815 20.7396 24.9985 21.3958 25.218 21.5417C25.5107 21.6875 25.6571 21.7604 25.7302 21.8333C25.8034 22.0521 25.8034 22.5625 25.5839 23.1458Z"
+                                                fill="white" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="cost">
+            <div class="cost-wrapper container">
+                <h2 id="cost" class="cost-title">Сколько стоит обучение в онлайн школе?</h2>
+                <div class="cost-content">
+                    <div class="cost-conditions-wrapper">
+                        <div class="cost-conditions-price">
+                            <p>10 500 <span class="cost-condition-price-rub">₽</span><span
+                                    class="cost-conditions-price-month">/мес</span></p>
+                        </div>
+                        <div class="cost-conditions">
+                            <h3 class="cost-conditions-title">1-4 класс</h3>
+                            <div class="cost-conditions-slogan">
+                                <p>
+                                    Веселые и увлекательные уроки
+                                </p>
+                            </div>
+                            <ul class="cost-conditions-list">
+                                <li class="cost-conditions-item">2-3 урока в день пн-чт</li>
+                                <li class="cost-conditions-item">10-12 учеников в классе</li>
+                                <li class="cost-conditions-item">внимание к каждому<br> ребенку</li>
+                                <li class="cost-conditions-item">интерактивные<br> тренажеры</li>
+                                <li class="cost-conditions-item">игровая форма<br> обучения</li>
+                                <li class="cost-conditions-item">зачисление в школу<br> партнер 12 000/год</li>
+                            </ul>
+                            <a href="/" class="cost-conditions-button">
+                                <p>Подробнее</p>
+                            </a>
+                        </div>
+                        <img src="./images/cost/1.png" alt="" class="cost-conditions-image">
+                    </div>
+
+                    <div class="cost-conditions-wrapper">
+                        <div class="cost-conditions-price">
+                            <p>12 500 <span class="cost-condition-price-rub">₽</span><span
+                                    class="cost-conditions-price-month">/мес</span></p>
+                        </div>
+                        <div class="cost-conditions">
+                            <h3 class="cost-conditions-title">5-8 класс</h3>
+                            <div class="cost-conditions-slogan">
+                                <p>
+                                    Помогаем не потерять интерес
+                                </p>
+                            </div>
+                            <ul class="cost-conditions-list">
+                                <li class="cost-conditions-item">3-5 уроков в день пн-пт</li>
+                                <li class="cost-conditions-item">12-15 учеников в<br> классе</li>
+                                <li class="cost-conditions-item">внимание к<br> каждому ребенку</li>
+                                <li class="cost-conditions-item">интерактивные<br> тренажеры</li>
+                                <li class="cost-conditions-item">усиленная<br> подготовка к ОГЭ</li>
+                                <li class="cost-conditions-item">зачисление в школу<br> партнер 12 000/год</li>
+                            </ul>
+                            <a href="/" class="cost-conditions-button">
+                                <p>Подробнее</p>
+                            </a>
+                        </div>
+                        <img src="./images/cost/2.png" alt="" class="cost-conditions-image">
+                    </div>
+
+                    <div class="cost-conditions-wrapper">
+                        <div class="cost-conditions-price">
+                            <p>16 500 <span class="cost-condition-price-rub">₽</span><span
+                                    class="cost-conditions-price-month">/мес</span></p>
+                        </div>
+                        <div class="cost-conditions">
+                            <h3 class="cost-conditions-title">9-11 класс</h3>
+                            <div class="cost-conditions-slogan">
+                                <p>
+                                    Самый важный этап в жизни
+                                </p>
+                            </div>
+                            <ul class="cost-conditions-list">
+                                <li class="cost-conditions-item">4-5 уроков в день<br> пн-пт</li>
+                                <li class="cost-conditions-item">12-15 учеников в<br> классе</li>
+                                <li class="cost-conditions-item">внимание к<br> каждому ребенку</li>
+                                <li class="cost-conditions-item">интерактивные<br> тренажеры</li>
+                                <li class="cost-conditions-item">усиленная подготовка<br> к ОГЭ и ЕГЭ</li>
+                                <li class="cost-conditions-item">зачисление в школу<br> партнер 12 000/год</li>
+                            </ul>
+                            <a href="/" class="cost-conditions-button">
+                                <p>Подробнее</p>
+                            </a>
+                        </div>
+                        <img src="./images/cost/3.png" alt="" class="cost-conditions-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="certificate">
+            <div class="certificate-wrapper container">
+                <div class="certificate-text">
+                    <h2 class="certificate-title">Аттестат государственного образца</h2>
+                    <div class="certificate-description">
+                        <p>
+                            Вы получите аттестат государственного образца. Он ничем не отличается от аттестата которые
+                            выдают в обычных школах.С аттестатом вы сможете продолжить обучение в лучших вузах страны.
+                        </p>
+                    </div>
+                </div>
+                <img src="./images/certificate/certificate.png" alt="" class="certificate-image">
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="feedback-wrapper">
+                <h2 class="feedback-title container">Отзывы родителей о "Школе Будущего Online"</h2>
+                <div class="feedback-slider-wrapper swiper">
+                    <div class="feedback-slider swiper-wrapper">
+                        <div class="feedback-slide swiper-slide">
+                            <div class="feedback-slide-content-wrapper">
+                                <div class="feedback-slide-content">
+                                    <div class="feedback-slide-who">
+                                        <div class="feedback-slide-social">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path id="_47.VK_1_"
+                                                    d="M20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0ZM31.7369 27.3079L28.2869 27.3552C28.2869 27.3552 27.5448 27.5026 26.5711 26.8289C25.279 25.942 24.0632 23.6395 23.1159 23.9341C22.1685 24.2288 22.1843 26.3026 22.1843 26.3026C22.1873 26.5458 22.1127 26.7837 21.9712 26.9816C21.772 27.1522 21.5264 27.2594 21.2659 27.2895H19.737C19.737 27.2895 16.3159 27.4921 13.3291 24.371C10.0448 20.9816 7.15273 14.2105 7.15273 14.2105C7.15273 14.2105 6.98242 13.8177 7.16852 13.5526C7.32938 13.3234 7.72609 13.2987 7.92641 13.2895C8.78992 13.2491 11.3843 13.2658 11.3843 13.2658C11.6013 13.2604 11.7472 13.2718 12.0159 13.3895C12.2468 13.5036 12.422 13.6736 12.5343 13.9473C12.9334 14.9412 13.3967 15.9082 13.9212 16.8421C15.4633 19.5079 16.1817 20.0895 16.7054 19.8052C17.4659 19.3895 17.2317 16.0395 17.2317 16.0395C17.2317 16.0395 17.2317 14.821 16.8475 14.2816C16.5583 13.9437 16.1504 13.7298 15.708 13.6842C15.5002 13.6552 15.8423 13.1737 16.2844 12.9579C16.9475 12.6316 18.1213 12.6316 19.5054 12.6316C20.1145 12.6086 20.7239 12.6706 21.3159 12.8158C22.5896 13.1237 22.158 14.3079 22.158 17.1552C22.158 18.0658 21.9923 19.35 22.6502 19.7868C22.9344 19.9684 23.6238 19.8131 25.3554 16.8763C25.9078 15.9044 26.3872 14.8929 26.7896 13.8499C26.8671 13.6841 26.9847 13.5404 27.1317 13.4315C27.2872 13.3541 27.462 13.3239 27.6344 13.3446L31.5186 13.3183C31.5186 13.3183 32.6844 13.1788 32.8738 13.7077C33.0633 14.2367 32.437 15.5498 30.8502 17.6551C28.2449 21.1287 27.9554 20.813 30.1186 22.8103C32.1844 24.7288 32.6134 25.663 32.6844 25.7787C33.5421 27.1948 31.7369 27.3079 31.7369 27.3079Z"
+                                                    fill="#4C75A3" />
+                                            </svg>
+                                        </div>
+                                        <div class="feedback-slide-user">
+                                            <h4 class="feedback-slide-name">Анна Смирнова</h4>
+                                            <div class="feedback-slide-children">
+                                                <p>
+                                                    родитель Максима
+                                                </p>
+                                            </div>
+                                            <a href="/" class="feedback-slide-link">vk.com/annaaa</a>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-slide-text">
+                                        <p>
+                                            Банальные, но неопровержимые выводы, а также непосредственные участники
+                                            технического прогресса набирают популярность среди определенных слоев
+                                            населения,
+                                            а значит, должны быть ассоциативно распределены по отраслям. Имеется спорная
+                                            точка зрения, гласящая примерно следующее: диаграммы.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feedback-slide swiper-slide">
+                            <div class="feedback-slide-content-wrapper">
+                                <div class="feedback-slide-content">
+                                    <div class="feedback-slide-who">
+                                        <div class="feedback-slide-social">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g id="instagram" clip-path="url(#clip0_79_115)">
+                                                    <path id="Vector"
+                                                        d="M20 40C8.956 40 0 31.044 0 20C0 8.956 8.956 0 20 0C31.044 0 40 8.956 40 20C40 31.044 31.044 40 20 40Z"
+                                                        fill="url(#paint0_linear_79_115)" />
+                                                    <g id="Group">
+                                                        <path id="Vector_2"
+                                                            d="M20.0002 8.80766C23.6443 8.80766 24.0763 8.81966 25.5163 8.88766C26.8483 8.94766 27.5723 9.17166 28.0523 9.35966C28.6883 9.60766 29.1443 9.90366 29.6203 10.3797C30.0963 10.8557 30.3923 11.3117 30.6403 11.9477C30.8283 12.4277 31.0483 13.1517 31.1123 14.4837C31.1763 15.9237 31.1923 16.3557 31.1923 19.9997C31.1923 23.6437 31.1803 24.0757 31.1123 25.5157C31.0523 26.8477 30.8283 27.5717 30.6403 28.0517C30.3923 28.6877 30.0963 29.1437 29.6203 29.6197C29.1443 30.0957 28.6883 30.3917 28.0523 30.6397C27.5723 30.8277 26.8483 31.0477 25.5163 31.1117C24.0763 31.1757 23.6443 31.1917 20.0002 31.1917C16.3562 31.1917 15.9242 31.1797 14.4842 31.1117C13.1522 31.0517 12.4282 30.8277 11.9482 30.6397C11.3122 30.3917 10.8562 30.0957 10.3802 29.6197C9.90424 29.1437 9.60824 28.6877 9.36024 28.0517C9.17224 27.5717 8.95224 26.8477 8.88824 25.5157C8.82424 24.0757 8.80824 23.6437 8.80824 19.9997C8.80824 16.3557 8.82024 15.9237 8.88824 14.4837C8.94824 13.1517 9.17224 12.4277 9.36024 11.9477C9.60824 11.3117 9.90424 10.8557 10.3802 10.3797C10.8562 9.90366 11.3122 9.60766 11.9482 9.35966C12.4282 9.17166 13.1522 8.95166 14.4842 8.88766C15.9242 8.81966 16.3562 8.80766 20.0002 8.80766ZM20.0002 6.34766C16.2922 6.34766 15.8282 6.36366 14.3722 6.43166C12.9202 6.49966 11.9282 6.72766 11.0562 7.06766C10.1602 7.41166 9.39624 7.87966 8.64024 8.63966C7.88024 9.39966 7.41624 10.1597 7.06424 11.0597C6.72824 11.9277 6.49624 12.9197 6.42824 14.3757C6.36024 15.8317 6.34424 16.2957 6.34424 20.0037C6.34424 23.7117 6.36024 24.1757 6.42824 25.6317C6.49624 27.0837 6.72424 28.0757 7.06424 28.9477C7.41224 29.8397 7.88024 30.6037 8.64024 31.3597C9.40024 32.1197 10.1602 32.5837 11.0602 32.9357C11.9282 33.2717 12.9202 33.5037 14.3762 33.5717C15.8322 33.6397 16.2962 33.6557 20.0042 33.6557C23.7123 33.6557 24.1763 33.6397 25.6323 33.5717C27.0843 33.5037 28.0763 33.2757 28.9483 32.9357C29.8403 32.5877 30.6043 32.1197 31.3603 31.3597C32.1203 30.5997 32.5843 29.8397 32.9363 28.9397C33.2723 28.0717 33.5043 27.0797 33.5723 25.6237C33.6403 24.1677 33.6563 23.7037 33.6563 19.9957C33.6563 16.2877 33.6403 15.8237 33.5723 14.3677C33.5043 12.9157 33.2763 11.9237 32.9363 11.0517C32.5883 10.1597 32.1203 9.39566 31.3603 8.63966C30.6003 7.87966 29.8403 7.41566 28.9403 7.06366C28.0723 6.72766 27.0803 6.49566 25.6243 6.42766C24.1723 6.36366 23.7083 6.34766 20.0002 6.34766Z"
+                                                            fill="white" />
+                                                        <path id="Vector_3"
+                                                            d="M19.9993 12.9878C16.1273 12.9878 12.9873 16.1278 12.9873 19.9998C12.9873 23.8718 16.1273 27.0118 19.9993 27.0118C23.8713 27.0118 27.0113 23.8718 27.0113 19.9998C27.0113 16.1278 23.8713 12.9878 19.9993 12.9878ZM19.9993 24.5518C17.4873 24.5518 15.4473 22.5158 15.4473 19.9998C15.4473 17.4838 17.4873 15.4478 19.9993 15.4478C22.5113 15.4478 24.5513 17.4838 24.5513 19.9998C24.5513 22.5158 22.5113 24.5518 19.9993 24.5518Z"
+                                                            fill="white" />
+                                                        <path id="Vector_4"
+                                                            d="M27.2879 14.352C28.1937 14.352 28.9279 13.6178 28.9279 12.712C28.9279 11.8063 28.1937 11.072 27.2879 11.072C26.3822 11.072 25.6479 11.8063 25.6479 12.712C25.6479 13.6178 26.3822 14.352 27.2879 14.352Z"
+                                                            fill="white" />
+                                                    </g>
+                                                </g>
+                                                <defs>
+                                                    <linearGradient id="paint0_linear_79_115" x1="5.85786" y1="34.1421"
+                                                        x2="34.1421" y2="5.85786" gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#FFD521" />
+                                                        <stop offset="0.0551048" stop-color="#FFD020" />
+                                                        <stop offset="0.1241" stop-color="#FEC01E" />
+                                                        <stop offset="0.2004" stop-color="#FCA71B" />
+                                                        <stop offset="0.2821" stop-color="#FA8316" />
+                                                        <stop offset="0.3681" stop-color="#F85510" />
+                                                        <stop offset="0.4563" stop-color="#F51E09" />
+                                                        <stop offset="0.5" stop-color="#F30005" />
+                                                        <stop offset="0.5035" stop-color="#F20007" />
+                                                        <stop offset="0.5966" stop-color="#E1003B" />
+                                                        <stop offset="0.6879" stop-color="#D30067" />
+                                                        <stop offset="0.7757" stop-color="#C70088" />
+                                                        <stop offset="0.8589" stop-color="#BF00A0" />
+                                                        <stop offset="0.9357" stop-color="#BB00AF" />
+                                                        <stop offset="1" stop-color="#B900B4" />
+                                                    </linearGradient>
+                                                    <clipPath id="clip0_79_115">
+                                                        <rect width="40" height="40" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <div class="feedback-slide-user">
+                                            <h4 class="feedback-slide-name">Анна Смирнова</h4>
+                                            <div class="feedback-slide-children">
+                                                <p>
+                                                    родитель Максима
+                                                </p>
+                                            </div>
+                                            <a href="/" class="feedback-slide-link">vk.com/annaaa</a>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-slide-text">
+                                        <p>
+                                            Банальные, но неопровержимые выводы, а также непосредственные участники
+                                            технического прогресса набирают популярность среди определенных слоев
+                                            населения,
+                                            а значит, должны быть ассоциативно распределены по отраслям. Имеется спорная
+                                            точка зрения, гласящая примерно следующее: диаграммы.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feedback-slide swiper-slide">
+                            <div class="feedback-slide-content-wrapper">
+                                <div class="feedback-slide-content">
+                                    <div class="feedback-slide-who">
+                                        <div class="feedback-slide-social">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path id="_47.VK_1_"
+                                                    d="M20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0ZM31.7369 27.3079L28.2869 27.3552C28.2869 27.3552 27.5448 27.5026 26.5711 26.8289C25.279 25.942 24.0632 23.6395 23.1159 23.9341C22.1685 24.2288 22.1843 26.3026 22.1843 26.3026C22.1873 26.5458 22.1127 26.7837 21.9712 26.9816C21.772 27.1522 21.5264 27.2594 21.2659 27.2895H19.737C19.737 27.2895 16.3159 27.4921 13.3291 24.371C10.0448 20.9816 7.15273 14.2105 7.15273 14.2105C7.15273 14.2105 6.98242 13.8177 7.16852 13.5526C7.32938 13.3234 7.72609 13.2987 7.92641 13.2895C8.78992 13.2491 11.3843 13.2658 11.3843 13.2658C11.6013 13.2604 11.7472 13.2718 12.0159 13.3895C12.2468 13.5036 12.422 13.6736 12.5343 13.9473C12.9334 14.9412 13.3967 15.9082 13.9212 16.8421C15.4633 19.5079 16.1817 20.0895 16.7054 19.8052C17.4659 19.3895 17.2317 16.0395 17.2317 16.0395C17.2317 16.0395 17.2317 14.821 16.8475 14.2816C16.5583 13.9437 16.1504 13.7298 15.708 13.6842C15.5002 13.6552 15.8423 13.1737 16.2844 12.9579C16.9475 12.6316 18.1213 12.6316 19.5054 12.6316C20.1145 12.6086 20.7239 12.6706 21.3159 12.8158C22.5896 13.1237 22.158 14.3079 22.158 17.1552C22.158 18.0658 21.9923 19.35 22.6502 19.7868C22.9344 19.9684 23.6238 19.8131 25.3554 16.8763C25.9078 15.9044 26.3872 14.8929 26.7896 13.8499C26.8671 13.6841 26.9847 13.5404 27.1317 13.4315C27.2872 13.3541 27.462 13.3239 27.6344 13.3446L31.5186 13.3183C31.5186 13.3183 32.6844 13.1788 32.8738 13.7077C33.0633 14.2367 32.437 15.5498 30.8502 17.6551C28.2449 21.1287 27.9554 20.813 30.1186 22.8103C32.1844 24.7288 32.6134 25.663 32.6844 25.7787C33.5421 27.1948 31.7369 27.3079 31.7369 27.3079Z"
+                                                    fill="#4C75A3" />
+                                            </svg>
+                                        </div>
+                                        <div class="feedback-slide-user">
+                                            <h4 class="feedback-slide-name">Анна Смирнова</h4>
+                                            <div class="feedback-slide-children">
+                                                <p>
+                                                    родитель Максима
+                                                </p>
+                                            </div>
+                                            <a href="/" class="feedback-slide-link">vk.com/annaaa</a>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-slide-text">
+                                        <p>
+                                            Банальные, но неопровержимые выводы, а также непосредственные участники
+                                            технического прогресса набирают популярность среди определенных слоев
+                                            населения,
+                                            а значит, должны быть ассоциативно распределены по отраслям. Имеется спорная
+                                            точка зрения, гласящая примерно следующее: диаграммы.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feedback-slide swiper-slide">
+                            <div class="feedback-slide-content-wrapper">
+                                <div class="feedback-slide-content">
+                                    <div class="feedback-slide-who">
+                                        <div class="feedback-slide-social">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g id="instagram" clip-path="url(#clip0_79_115)">
+                                                    <path id="Vector"
+                                                        d="M20 40C8.956 40 0 31.044 0 20C0 8.956 8.956 0 20 0C31.044 0 40 8.956 40 20C40 31.044 31.044 40 20 40Z"
+                                                        fill="url(#paint0_linear_79_115)" />
+                                                    <g id="Group">
+                                                        <path id="Vector_2"
+                                                            d="M20.0002 8.80766C23.6443 8.80766 24.0763 8.81966 25.5163 8.88766C26.8483 8.94766 27.5723 9.17166 28.0523 9.35966C28.6883 9.60766 29.1443 9.90366 29.6203 10.3797C30.0963 10.8557 30.3923 11.3117 30.6403 11.9477C30.8283 12.4277 31.0483 13.1517 31.1123 14.4837C31.1763 15.9237 31.1923 16.3557 31.1923 19.9997C31.1923 23.6437 31.1803 24.0757 31.1123 25.5157C31.0523 26.8477 30.8283 27.5717 30.6403 28.0517C30.3923 28.6877 30.0963 29.1437 29.6203 29.6197C29.1443 30.0957 28.6883 30.3917 28.0523 30.6397C27.5723 30.8277 26.8483 31.0477 25.5163 31.1117C24.0763 31.1757 23.6443 31.1917 20.0002 31.1917C16.3562 31.1917 15.9242 31.1797 14.4842 31.1117C13.1522 31.0517 12.4282 30.8277 11.9482 30.6397C11.3122 30.3917 10.8562 30.0957 10.3802 29.6197C9.90424 29.1437 9.60824 28.6877 9.36024 28.0517C9.17224 27.5717 8.95224 26.8477 8.88824 25.5157C8.82424 24.0757 8.80824 23.6437 8.80824 19.9997C8.80824 16.3557 8.82024 15.9237 8.88824 14.4837C8.94824 13.1517 9.17224 12.4277 9.36024 11.9477C9.60824 11.3117 9.90424 10.8557 10.3802 10.3797C10.8562 9.90366 11.3122 9.60766 11.9482 9.35966C12.4282 9.17166 13.1522 8.95166 14.4842 8.88766C15.9242 8.81966 16.3562 8.80766 20.0002 8.80766ZM20.0002 6.34766C16.2922 6.34766 15.8282 6.36366 14.3722 6.43166C12.9202 6.49966 11.9282 6.72766 11.0562 7.06766C10.1602 7.41166 9.39624 7.87966 8.64024 8.63966C7.88024 9.39966 7.41624 10.1597 7.06424 11.0597C6.72824 11.9277 6.49624 12.9197 6.42824 14.3757C6.36024 15.8317 6.34424 16.2957 6.34424 20.0037C6.34424 23.7117 6.36024 24.1757 6.42824 25.6317C6.49624 27.0837 6.72424 28.0757 7.06424 28.9477C7.41224 29.8397 7.88024 30.6037 8.64024 31.3597C9.40024 32.1197 10.1602 32.5837 11.0602 32.9357C11.9282 33.2717 12.9202 33.5037 14.3762 33.5717C15.8322 33.6397 16.2962 33.6557 20.0042 33.6557C23.7123 33.6557 24.1763 33.6397 25.6323 33.5717C27.0843 33.5037 28.0763 33.2757 28.9483 32.9357C29.8403 32.5877 30.6043 32.1197 31.3603 31.3597C32.1203 30.5997 32.5843 29.8397 32.9363 28.9397C33.2723 28.0717 33.5043 27.0797 33.5723 25.6237C33.6403 24.1677 33.6563 23.7037 33.6563 19.9957C33.6563 16.2877 33.6403 15.8237 33.5723 14.3677C33.5043 12.9157 33.2763 11.9237 32.9363 11.0517C32.5883 10.1597 32.1203 9.39566 31.3603 8.63966C30.6003 7.87966 29.8403 7.41566 28.9403 7.06366C28.0723 6.72766 27.0803 6.49566 25.6243 6.42766C24.1723 6.36366 23.7083 6.34766 20.0002 6.34766Z"
+                                                            fill="white" />
+                                                        <path id="Vector_3"
+                                                            d="M19.9993 12.9878C16.1273 12.9878 12.9873 16.1278 12.9873 19.9998C12.9873 23.8718 16.1273 27.0118 19.9993 27.0118C23.8713 27.0118 27.0113 23.8718 27.0113 19.9998C27.0113 16.1278 23.8713 12.9878 19.9993 12.9878ZM19.9993 24.5518C17.4873 24.5518 15.4473 22.5158 15.4473 19.9998C15.4473 17.4838 17.4873 15.4478 19.9993 15.4478C22.5113 15.4478 24.5513 17.4838 24.5513 19.9998C24.5513 22.5158 22.5113 24.5518 19.9993 24.5518Z"
+                                                            fill="white" />
+                                                        <path id="Vector_4"
+                                                            d="M27.2879 14.352C28.1937 14.352 28.9279 13.6178 28.9279 12.712C28.9279 11.8063 28.1937 11.072 27.2879 11.072C26.3822 11.072 25.6479 11.8063 25.6479 12.712C25.6479 13.6178 26.3822 14.352 27.2879 14.352Z"
+                                                            fill="white" />
+                                                    </g>
+                                                </g>
+                                                <defs>
+                                                    <linearGradient id="paint0_linear_79_115" x1="5.85786" y1="34.1421"
+                                                        x2="34.1421" y2="5.85786" gradientUnits="userSpaceOnUse">
+                                                        <stop stop-color="#FFD521" />
+                                                        <stop offset="0.0551048" stop-color="#FFD020" />
+                                                        <stop offset="0.1241" stop-color="#FEC01E" />
+                                                        <stop offset="0.2004" stop-color="#FCA71B" />
+                                                        <stop offset="0.2821" stop-color="#FA8316" />
+                                                        <stop offset="0.3681" stop-color="#F85510" />
+                                                        <stop offset="0.4563" stop-color="#F51E09" />
+                                                        <stop offset="0.5" stop-color="#F30005" />
+                                                        <stop offset="0.5035" stop-color="#F20007" />
+                                                        <stop offset="0.5966" stop-color="#E1003B" />
+                                                        <stop offset="0.6879" stop-color="#D30067" />
+                                                        <stop offset="0.7757" stop-color="#C70088" />
+                                                        <stop offset="0.8589" stop-color="#BF00A0" />
+                                                        <stop offset="0.9357" stop-color="#BB00AF" />
+                                                        <stop offset="1" stop-color="#B900B4" />
+                                                    </linearGradient>
+                                                    <clipPath id="clip0_79_115">
+                                                        <rect width="40" height="40" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        <div class="feedback-slide-user">
+                                            <h4 class="feedback-slide-name">Анна Смирнова</h4>
+                                            <div class="feedback-slide-children">
+                                                <p>
+                                                    родитель Максима
+                                                </p>
+                                            </div>
+                                            <a href="/" class="feedback-slide-link">vk.com/annaaa</a>
+                                        </div>
+                                    </div>
+                                    <div class="feedback-slide-text">
+                                        <p>
+                                            Банальные, но неопровержимые выводы, а также непосредственные участники
+                                            технического прогресса набирают популярность среди определенных слоев
+                                            населения,
+                                            а значит, должны быть ассоциативно распределены по отраслям. Имеется спорная
+                                            точка зрения, гласящая примерно следующее: диаграммы.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="feedback-button">
+                    <button class="feedback-button-prev">
+                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="chevron-down">
+                                <path id="Vector" d="M20.9092 8.06055L12.8488 16.121L20.9092 24.1814"
+                                    stroke="url(#paint0_linear_318_32755)" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear_318_32755" x1="12.8488" y1="16.1623" x2="21.8022"
+                                    y2="18.3944" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#4271DF" />
+                                    <stop offset="1" stop-color="#789CF1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+                    <button class="feedback-button-next">
+                        <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="chevron-down">
+                                <path id="Vector" d="M12.0908 24.9395L20.1512 16.879L12.0908 8.8186"
+                                    stroke="url(#paint0_linear_318_32759)" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear_318_32759" x1="20.1512" y1="16.8377" x2="11.1978"
+                                    y2="14.6056" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#4271DF" />
+                                    <stop offset="1" stop-color="#789CF1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <img src="./images/feedback/background.png" alt="" class="feedback-image">
+        </section>
+        <section class="qa">
+            <div class="qa-wrapper container">
+                <ul class="qa-list">
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Домашнее обучение в «Школе Будущего Онлайн»</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Как поступить в «Школу Будущего Онлайн»</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Как перевести ребенка на семейное обучение</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Что входит в цену на дистанционное школьное образование</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Контроль успеваемости в онлайн школе</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Преимущества обучения в онлайн-школе</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Нужна ли онлайн школа на домашнем обучении?</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Разница между семейным и заочным обучением</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Школа отказывается переводить ребёнка на семейное образование?
+                            </h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="qa-item">
+                        <div class="qa-question">
+                            <h3 class="qa-question-title">Почему нужно поступить в онлайн школу?</h3>
+                            <div class="qa-question-button">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="qa-answer">
+                            <div class="qa-answer-text">
+                                <p>
+                                    <b>Домашнее образование</b> в «Школе Будущего Онлайн» дает много свободы ученику и
+                                    возможность развиваться как индивидуальность. Такой формат обучения идеально
+                                    подходит для детей, которые хотят эффективно использовать свое время и с
+                                    максимальной пользой для достижения поставленных целей.<br><br> Наша <b>домашняя
+                                        интернет школа</b> имеет лицензию образовательного учреждения, предоставляет
+                                    программу обучения, которая соответствует государственной. При этом мы используем
+                                    уникальные методики, игровой формат и квизы для максимального вовлечения учеников в
+                                    учебный процесс.<br><br> Современное <b>образование онлайн</b> позволяет ученику
+                                    всесторонне развиваться и совмещать учебу с увлечениями, спортом и творчеством без
+                                    перенапряжения с оптимальным распределением времени. Такой формат дает положительные
+                                    результаты в обучении ребенка. Есть возможность развития индивидуальных
+                                    особенностей, талантов и склонностей к одной или нескольким наукам, которые могут в
+                                    будущем стать основой профессии.<br><br> Домашняя школа для ребенка – это
+                                    возможность:<br> &#183; учиться в комфортном режиме; <br> &#183; совмещать учебу с
+                                    личным развитием;<br> &#183; получить обратную связь от учителей и индивидуальный
+                                    подход.<br><br> Согласно действующему законодательству <b>семейная форма
+                                        обучения</b> доступна по желанию любому ребенку. Для этого достаточно подать
+                                    заявление в обычную школу и перейти на домашний формат обучения. Чтобы при семейном
+                                    формате обучения ребенок не сбился с графика, а также своевременно проходил базовые
+                                    темы государственной образовательной программы прекрасным помощником станет
+                                    онлайн-школа.<br><br> Наша <b>российская онлайн школа</b> поможет сделать семейное
+                                    обучение эффективным за счет дополнительных учебных материалов, кураторства и помощи
+                                    учителей. Чтобы узнать, подходит ли такой формат обучения, всегда можно пройти
+                                    недельный бесплатный курс.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section class="request">
+            <div class="request-wrapper container">
+                <div class="request-form-wrapper">
+                    <img src="./images/request/form-background.png" alt="" class="request-form-image">
+                    <form action="#" id="form" class="request-form">
+                        <div class="request-form-item">
+                            <label for="forClass" class="request-form-label visually-hidden">class</label>
+                            <div class="request-form-input">
+                                <div class="request-form-input-icon">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="apps" clip-path="url(#clip0_318_32640)">
+                                            <path id="Vector"
+                                                d="M4.1875 8H8.1875V4H4.1875V8ZM10.1875 20H14.1875V16H10.1875V20ZM4.1875 20H8.1875V16H4.1875V20ZM4.1875 14H8.1875V10H4.1875V14ZM10.1875 14H14.1875V10H10.1875V14ZM16.1875 4V8H20.1875V4H16.1875ZM10.1875 8H14.1875V4H10.1875V8ZM16.1875 14H20.1875V10H16.1875V14ZM16.1875 20H20.1875V16H16.1875V20Z"
+                                                fill="#323232" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_318_32640">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0.1875)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <input id="forClass" type="number" name="class" placeholder="Класс" class="_class _req">
+                            </div>
+                        </div>
+
+                        <div class="request-form-item">
+                            <label for="forName" class="request-form-label visually-hidden">name</label>
+                            <div class="request-form-input">
+                                <div class="request-form-input-icon">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="person" clip-path="url(#clip0_318_32652)">
+                                            <path id="Vector"
+                                                d="M12.1914 12C14.4014 12 16.1914 10.21 16.1914 8C16.1914 5.79 14.4014 4 12.1914 4C9.98141 4 8.19141 5.79 8.19141 8C8.19141 10.21 9.98141 12 12.1914 12ZM12.1914 14C9.52141 14 4.19141 15.34 4.19141 18V20H20.1914V18C20.1914 15.34 14.8614 14 12.1914 14Z"
+                                                fill="#323232" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_318_32652">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0.191406)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <input id="forName" type="text" name="name" placeholder="Имя родителя" class="_name">
+                            </div>
+                        </div>
+
+                        <div class="request-form-item">
+                            <label for="forPhone" class="request-form-label visually-hidden">phone</label>
+                            <div class="request-form-input">
+                                <div class="request-form-input-icon">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_318_32646)">
+                                            <path
+                                                d="M7.27234 10.79C8.71234 13.62 11.0323 15.93 13.8623 17.38L16.0623 15.18C16.3323 14.91 16.7323 14.82 17.0823 14.94C18.2023 15.31 19.4123 15.51 20.6523 15.51C21.2023 15.51 21.6523 15.96 21.6523 16.51V20C21.6523 20.55 21.2023 21 20.6523 21C11.2623 21 3.65234 13.39 3.65234 4C3.65234 3.45 4.10234 3 4.65234 3H8.15234C8.70234 3 9.15234 3.45 9.15234 4C9.15234 5.25 9.35234 6.45 9.72234 7.57C9.83234 7.92 9.75234 8.31 9.47234 8.59L7.27234 10.79Z"
+                                                fill="#323232" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_318_32646">
+                                                <rect width="24" height="24" fill="white"
+                                                    transform="translate(0.652344)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <input id="forPhone" type="text" name="phone" placeholder="Телефон родителя" class="_phone _req">
+                            </div>
+                        </div>
+                        <button class="request-form-button" type="submit">оставить заявку</button>
+                        <div class="request-form-text">
+                            <p>
+                                Нажимая кнопку, вы даете согласие на <a href="/">обработку своих персональных данных</a>
+                            </p>
+                        </div>
+                        </form>
+                </div>
+                <div class="request-text">
+                    <h2  id="signup" class="request-text-title">Все еще <span>сомневаетесь?</span></h2>
+                    <div class="request-text-description">
+                        <p>
+                            Всегда страшно переходить на что-то новое и неизведанное, потому мы предоставляем нашим
+                            клиентам возможность попробовать обучаться первую неделю абсолютно бесплатно.
+                        </p>
+                    </div>
+                </div>
+                <img src="./images/request/request-image.png" alt="" class="request-image">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper container">
+            <h2 id="contacts" class="visually-hidden">Footer</h2>
+            <img src="/images/footer/logo.png" alt="" class="footer-logo">
+            <div class="footer-agreement">
+                <p>
+                    Соглашение о конфиденциальности ООО «Школа Будущего Онлайн» Российская Федерация, 141804, Московская обл., г. Дмитров, ул Московская, дом 23 Возрастной рейтинг 6+
+                </p>
+            </div>
+            <div class="footer-column-classes _column">
+                <div class="footer-label _label">Классы</div>
+                <ul class="footer-classes">
+                    <li class="footer-classes-item"><a href="/">1-4 класс</a></li>
+                    <li class="footer-classes-item"><a href="/">5-8 класс</a></li>
+                    <li class="footer-classes-item"><a href="/">9-11 класс</a></li>
+                </ul>
+            </div>
+            <div class="footer-column-documents _column">
+                <div class="footer-label _label">Документы</div>
+                <ul class="footer-documents _column">
+                    <li class="footer-documents-item">
+                        <svg width="21" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon">
+                            <path id="Vector" d="M10.1381 19.9634C9.99922 19.5698 10.0271 19.2042 10.1104 18.8949H2.49966C2.02748 18.8949 1.63864 18.5012 1.63864 18.0233V2.67088C1.63864 2.1929 2.0275 1.79927 2.49966 1.79927H9.99933C10.2216 1.79927 10.4159 1.99619 10.4159 2.22096L10.4161 5.06097C10.4161 5.70764 10.9439 6.24193 11.5827 6.24193H14.3881C14.6103 6.24193 14.8047 6.43885 14.8047 6.66362V12.6246C14.9992 12.5403 15.2491 12.484 15.4991 12.484C15.8602 12.484 16.1658 12.5964 16.4434 12.737L16.4436 6.2985C16.4436 5.62362 16.1937 4.97696 15.7215 4.49895L12.1105 0.843566C11.6383 0.365585 10.9995 0.112549 10.3328 0.112549H2.49979C1.13869 0.112549 0 1.23717 0 2.64306V17.9955C0 19.3733 1.11096 20.526 2.49979 20.526H10.4717C10.3329 20.3854 10.2217 20.1886 10.1384 19.9637L10.1381 19.9634Z" fill="#243976"/>
+                            <path id="Vector_2" d="M3.49978 16.1392C3.49978 16.5892 3.86093 16.9546 4.3052 16.9546H10.0549C10.0549 16.7859 10.0827 16.6172 10.1383 16.4203C10.3328 15.858 10.7217 15.5204 11.0826 15.2957H4.30513C3.86066 15.3237 3.49951 15.6893 3.49951 16.1392H3.49978Z" fill="#243976"/>
+                            <path id="Vector_3" d="M12.9433 12.568C12.9433 12.1181 12.5822 11.7527 12.1379 11.7527H4.30493C3.86046 11.7527 3.49951 12.1183 3.49951 12.568C3.49951 13.0179 3.86067 13.3833 4.30493 13.3833H12.1101C12.5823 13.3835 12.9435 13.0179 12.9435 12.568H12.9433Z" fill="#243976"/>
+                            <path id="Vector_4" d="M12.1101 8.15356H4.30493C3.86046 8.15356 3.49951 8.51916 3.49951 8.96888C3.49951 9.41882 3.86067 9.78421 4.30493 9.78421H12.1101C12.5546 9.78421 12.9156 9.41861 12.9156 8.96888C12.9435 8.51895 12.5823 8.15356 12.1101 8.15356Z" fill="#243976"/>
+                            <path id="Vector_5" d="M4.30493 6.24192H7.94361C8.38808 6.24192 8.74903 5.87633 8.74903 5.4266C8.74903 4.97667 8.38788 4.61128 7.94361 4.61128L4.30493 4.61108C3.86046 4.61108 3.49951 4.97668 3.49951 5.4264C3.49932 5.87634 3.86047 6.24193 4.30493 6.24193V6.24192Z" fill="#243976"/>
+                            <path id="Vector_6" d="M13.9157 23.1125C13.7212 23.1406 13.5268 23.1969 13.3046 23.1969C12.888 23.1969 12.4992 23.0845 12.1936 22.8313C11.8881 22.6063 11.7215 22.3252 11.5826 22.072L10.0548 24.8838C9.88817 25.1651 10.1381 25.5305 10.4437 25.5024L11.8325 25.39L12.4713 26.6553C12.6379 26.9646 13.0547 26.9646 13.1934 26.6553L14.7489 23.7872C14.4158 23.5905 14.1103 23.3094 13.9157 23.1125L13.9157 23.1125Z" fill="#243976"/>
+                            <path id="Vector_7" d="M20.9436 24.8838L19.4158 22.072C19.3048 22.3533 19.1103 22.6063 18.8048 22.8313C18.4992 23.0562 18.1103 23.1969 17.6938 23.1969C17.4715 23.1969 17.2493 23.1688 17.0827 23.1125C16.8882 23.3375 16.6105 23.6185 16.2217 23.7874L17.7771 26.6555C17.9437 26.9367 18.3605 26.9367 18.4993 26.6555L19.1381 25.3902L20.5269 25.5026C20.8882 25.5305 21.1105 25.1649 20.9437 24.8838L20.9436 24.8838Z" fill="#243976"/>
+                            <path id="Vector_8" d="M16.6098 21.6786C16.9986 21.538 17.6653 21.9316 17.9986 21.6786C18.3319 21.4256 18.1652 20.6664 18.4152 20.329C18.6651 19.9916 19.4151 19.9073 19.5541 19.5137C19.6651 19.12 19.1096 18.6138 19.1096 18.1921C19.1096 17.7704 19.6651 17.2362 19.5541 16.8706C19.4151 16.4769 18.6651 16.3926 18.4152 16.0553C18.1652 15.7179 18.3319 14.9587 17.9986 14.7056C17.6654 14.4526 16.9987 14.8463 16.6098 14.7056C16.2209 14.5933 15.9154 13.8621 15.4988 13.8621C15.0823 13.8621 14.7767 14.565 14.3879 14.7056C13.999 14.8463 13.3323 14.4526 12.999 14.7056C12.6658 14.9587 12.8324 15.7179 12.5825 16.0553C12.3325 16.3926 11.5825 16.477 11.4436 16.8706C11.3324 17.264 11.8878 17.7703 11.8878 18.1919C11.8878 18.6136 11.3324 19.1479 11.4434 19.5135C11.5823 19.9071 12.3323 19.9914 12.5823 20.3288C12.8322 20.6661 12.6656 21.4254 12.9988 21.6784C13.3321 21.9314 13.9988 21.5378 14.3877 21.6784C14.7765 21.7908 15.0821 22.522 15.4986 22.522C15.9433 22.4939 16.2488 21.791 16.6098 21.6786H16.6098ZM15.6098 19.7104C15.5542 19.6823 15.4709 19.6823 15.4153 19.7104L14.5543 20.2164C14.332 20.357 14.0544 20.1321 14.1098 19.8791L14.3043 18.8948C14.3043 18.8385 14.3043 18.7542 14.2487 18.6979L13.4987 18.023C13.3042 17.8544 13.4154 17.517 13.6653 17.4887L14.6653 17.3764C14.7209 17.3764 14.8042 17.3201 14.8319 17.264L15.2485 16.3361C15.3595 16.0831 15.693 16.0831 15.804 16.3361L16.2205 17.264C16.2483 17.3203 16.3039 17.3764 16.3872 17.3764L17.3871 17.4887C17.6371 17.5168 17.7483 17.8543 17.5538 18.023L16.8037 18.6979C16.7481 18.7542 16.7204 18.8103 16.7481 18.8948L16.9427 19.8791C16.9983 20.1321 16.7204 20.357 16.4982 20.2164L15.6098 19.7104Z" fill="#243976"/>
+                            </g>
+                        </svg> 
+                        <a href="/">Лицензия</a>                           
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column-social _column">
+                <div class="footer-label _label">Соцсети</div>
+                <div class="footer-social">
+                    <a href="/">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="19.9985" cy="20" r="20" fill="#2F89CE"/>
+                        <path d="M9.34924 20.3741L13.9473 22.0886L15.7398 27.8557C15.8177 28.2454 16.2853 28.3233 16.5971 28.0895L19.1689 25.9853C19.4027 25.7515 19.7923 25.7515 20.1041 25.9853L24.7022 29.3364C25.0139 29.5702 25.4815 29.4144 25.5594 29.0247L28.9885 12.6587C29.0664 12.269 28.6768 11.8793 28.2871 12.0352L9.34924 19.3609C8.88163 19.5168 8.88163 20.2182 9.34924 20.3741ZM15.506 21.2313L24.5463 15.6981C24.7021 15.6201 24.858 15.8539 24.7022 15.9319L17.2985 22.868C17.0647 23.1018 16.8309 23.4135 16.8309 23.8032L16.5971 25.6736C16.5971 25.9074 16.2074 25.9853 16.1295 25.6736L15.1943 22.2445C14.9605 21.8548 15.1163 21.3872 15.506 21.2313Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="/">
+                        <svg width="34" height="35" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_168_80)">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.5 18.1418C25.5 19.5177 25.33 20.8936 25.33 20.8936C25.33 20.8936 25.1643 22.0645 24.6543 22.5809C24.0083 23.2577 23.2836 23.2609 22.9511 23.3002C20.5721 23.4723 17 23.4776 17 23.4776C17 23.4776 12.58 23.4373 11.22 23.3076C10.8418 23.2364 9.99175 23.2577 9.34575 22.5809C8.83575 22.0645 8.67 20.8936 8.67 20.8936C8.67 20.8936 8.5 19.5177 8.5 18.1418V16.8519C8.5 15.4759 8.67 14.1011 8.67 14.1011C8.67 14.1011 8.83575 12.9291 9.34575 12.4128C9.99175 11.7359 10.7164 11.7327 11.0489 11.6934C13.4279 11.5213 16.9968 11.5213 16.9968 11.5213H17.0032C17.0032 11.5213 20.5721 11.5213 22.9511 11.6934C23.2836 11.7327 24.0083 11.7359 24.6543 12.4128C25.1643 12.9291 25.33 14.1011 25.33 14.1011C25.33 14.1011 25.5 15.4759 25.5 16.8519V18.1418ZM17 0.5C7.61069 0.5 0 8.11069 0 17.5C0 26.8883 7.61069 34.5 17 34.5C26.3893 34.5 34 26.8883 34 17.5C34 8.11069 26.3893 0.5 17 0.5Z" fill="#EA412C"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2452 19.7047L19.8384 17.3247L15.2441 14.9277L15.2452 19.7047Z" fill="#EA412C"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_168_80">
+                            <rect width="34" height="34" fill="white" transform="translate(0 0.5)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>                    
+                    </a>
+                    <a href="/">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="_47.VK_1_" d="M20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0ZM31.7369 27.3079L28.2869 27.3552C28.2869 27.3552 27.5448 27.5026 26.5711 26.8289C25.279 25.942 24.0632 23.6395 23.1159 23.9341C22.1685 24.2288 22.1843 26.3026 22.1843 26.3026C22.1873 26.5458 22.1127 26.7837 21.9712 26.9816C21.772 27.1522 21.5264 27.2594 21.2659 27.2895H19.737C19.737 27.2895 16.3159 27.4921 13.3291 24.371C10.0448 20.9816 7.15273 14.2105 7.15273 14.2105C7.15273 14.2105 6.98242 13.8177 7.16852 13.5526C7.32938 13.3234 7.72609 13.2987 7.92641 13.2895C8.78992 13.2491 11.3843 13.2658 11.3843 13.2658C11.6013 13.2604 11.7472 13.2718 12.0159 13.3895C12.2468 13.5036 12.422 13.6736 12.5343 13.9473C12.9334 14.9412 13.3967 15.9082 13.9212 16.8421C15.4633 19.5079 16.1817 20.0895 16.7054 19.8052C17.4659 19.3895 17.2317 16.0395 17.2317 16.0395C17.2317 16.0395 17.2317 14.821 16.8475 14.2816C16.5583 13.9437 16.1504 13.7298 15.708 13.6842C15.5002 13.6552 15.8423 13.1737 16.2844 12.9579C16.9475 12.6316 18.1213 12.6316 19.5054 12.6316C20.1145 12.6086 20.7239 12.6706 21.3159 12.8158C22.5896 13.1237 22.158 14.3079 22.158 17.1552C22.158 18.0658 21.9923 19.35 22.6502 19.7868C22.9344 19.9684 23.6238 19.8131 25.3554 16.8763C25.9078 15.9044 26.3872 14.8929 26.7896 13.8499C26.8671 13.6841 26.9847 13.5404 27.1317 13.4315C27.2872 13.3541 27.462 13.3239 27.6344 13.3446L31.5186 13.3183C31.5186 13.3183 32.6844 13.1788 32.8738 13.7077C33.0633 14.2367 32.437 15.5498 30.8502 17.6551C28.2449 21.1287 27.9554 20.813 30.1186 22.8103C32.1844 24.7288 32.6134 25.663 32.6844 25.7787C33.5421 27.1948 31.7369 27.3079 31.7369 27.3079Z" fill="#4C75A3"/>
+                        </svg>                            
+                    </a>
+                </div>
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-contacts-item">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="place" clip-path="url(#clip0_168_98)">
+                        <path id="Vector" d="M23.0002 3.83325C15.5827 3.83325 9.5835 9.83242 9.5835 17.2499C9.5835 27.3124 23.0002 42.1666 23.0002 42.1666C23.0002 42.1666 36.4168 27.3124 36.4168 17.2499C36.4168 9.83242 30.4177 3.83325 23.0002 3.83325ZM23.0002 22.0416C20.3552 22.0416 18.2085 19.8949 18.2085 17.2499C18.2085 14.6049 20.3552 12.4583 23.0002 12.4583C25.6452 12.4583 27.7918 14.6049 27.7918 17.2499C27.7918 19.8949 25.6452 22.0416 23.0002 22.0416Z" fill="#243976"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_168_98">
+                        <rect width="46" height="46" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <a href="/">г. Дмитров<br> ул Московская, дом 23</a>
+                </div>
+                <div class="footer-contacts-item">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="icon_tel">
+                        <path id="Vector" d="M30.6673 1.91699H15.334C12.1523 1.91699 9.58398 4.48533 9.58398 7.66699V38.3337C9.58398 41.5153 12.1523 44.0837 15.334 44.0837H30.6673C33.849 44.0837 36.4173 41.5153 36.4173 38.3337V7.66699C36.4173 4.48533 33.849 1.91699 30.6673 1.91699ZM26.834 40.2503H19.1673V38.3337H26.834V40.2503ZM33.0632 34.5003H12.9382V7.66699H33.0632V34.5003Z" fill="#243976"/>
+                        </g>
+                    </svg>
+                    <a href="tel:88003003791" type="tel">8 (800) 300-37-91</a>                        
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/js/script.js"></script>
+
+</html>
